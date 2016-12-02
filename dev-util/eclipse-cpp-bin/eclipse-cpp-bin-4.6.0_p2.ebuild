@@ -1,6 +1,8 @@
-# Copyright open-overlay 2015 by Alex
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
 
-EAPI=5
+EAPI=6
 
 inherit eutils versionator
 
@@ -48,6 +50,4 @@ src_install() {
         make_wrapper ${PN} "${dest}/eclipse"
         make_desktop_entry ${PN} "Eclipse Cpp ${PV}" ${PN} "Development;IDE"
 }
-
-
 
