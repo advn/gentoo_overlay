@@ -2,9 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
+EAPI=6
+
 inherit eutils versionator
 
-SR=M3
+SR=1a
 RNAME="neon"
 
 
