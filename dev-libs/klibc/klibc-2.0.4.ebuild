@@ -23,7 +23,7 @@ inherit eutils multilib toolchain-funcs flag-o-matic
 
 DESCRIPTION="A minimal libc subset for use with initramfs"
 HOMEPAGE="http://www.zytor.com/mailman/listinfo/klibc/ https://www.kernel.org/pub/linux/libs/klibc/"
-KV_MAJOR="4" KV_MINOR="8" KV_SUB="10"
+KV_MAJOR="4" KV_MINOR="x" KV_SUB="8"
 PKV_EXTRA=""
 if [[ ${PKV_EXTRA} ]]; then
 	if [[ ${KV_MAJOR} == 2 ]]; then
